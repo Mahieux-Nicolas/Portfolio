@@ -1,0 +1,62 @@
+:root {
+    --color-main-title : #353535;
+    --color-sd-title: #d9d9d9;
+    --color-right-part: white;
+    }
+    
+    .cvhead{
+       font-size: 0.5em;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding :1em
+    }
+    
+    main{
+    display: flex;
+    background-color: #284b63;
+    flex-direction: row;
+    
+    }
+    .left-part{
+    width: 70%;
+    margin: 1em;
+    
+    }
+    
+    .right-part{
+    background-color: #3c6e71;
+    width: 30%;
+    color:var(--color-right-part);
+    
+    
+    }
+    h3{
+        color: var(--color-sd-title);
+    }
+    
+    h1,
+    h2,
+    h4,
+    h5{
+    color:var(--color-main-title)
+    
+    }
+    h1{
+        width :70%;
+       text-align: center;
+        
+    }
+    .photo1{
+     width: 10em;
+     margin-top: 1em;
+     margin-right: 0.5em;
+    
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: flex-start;
+        
+    }
