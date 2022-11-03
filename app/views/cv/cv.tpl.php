@@ -1,15 +1,14 @@
 <section class="cvhead">
 <body>
- 
-        <header class="top">
-        
-            <h1>Nicolas Mahieux </h1>
-            <h2>Développeur Web et Web mobile </h2>
+
+        <main>
+        <div class="left-part" >
+            <section class="intro">
+            <h2 class="intro">Développeur Web et Web mobile </h2>
             <p class="intro">Je souhaite créer et développer des applications, des sites web ou résoudre
                 des anomalies d’outils.</p>
-        </header>
-        <main>
-        <div class="left-part">
+
+            </section>
             
               
                    
@@ -87,7 +86,7 @@
             </section>
         </div>
             <div class="right-part">
-            <figure> <img src="img/moi.PNG" alt=""> </figure>
+            <figure> <img class="phpto" src="<?=$viewData['baseUri']?>/../public/assets/images/moi.PNG" alt=""> </figure>
             <address></address>
             <section>
                 <h5>Qualités</h5>
@@ -135,7 +134,9 @@
                 </ul>
             </section>
         </div>
+        <a class="btnCv" href="<?=$viewData['baseUri']?>/../public/assets/images/moi.PNG" download>télécharger le CV</a>
     </main>
+
 
 </body>
 

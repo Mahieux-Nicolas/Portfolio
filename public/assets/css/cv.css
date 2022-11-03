@@ -6,27 +6,32 @@
     
     .cvhead{
        font-size: 0.5em;
-        width: 50%;
+      width: 70%;
+ 
         margin-left: auto;
         margin-right: auto;
-        padding :1em
+        padding :1em;
+        font-size: 1em;
+        
     }
     
     main{
     display: flex;
     background-color: #284b63;
     flex-direction: row;
+    width: 70%;
+margin-left: 10em;
     
     }
     .left-part{
-    width: 70%;
+   
     margin: 1em;
     
     }
     
     .right-part{
     background-color: #3c6e71;
-    width: 30%;
+  width: 60%;
     color:var(--color-right-part);
     
     
@@ -47,16 +52,34 @@
        text-align: center;
         
     }
-    .photo1{
-     width: 10em;
-     margin-top: 1em;
-     margin-right: 0.5em;
+  
     
-    }
     .top{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-content: flex-start;
         
+    }
+
+    .phpto{
+
+        width: 100%;
+        box-sizing: border-content;
+
+    }
+    .btnCv{
+        background-color: #ed3c57;
+        padding: 1em;
+        color: white;
+        border-radius: 13px;
+        width: 13em;
+        height: 5em;
+        text-align: center;
+        padding-bottom: 2em;
+        font-family: 'Poppins';
+        margin-top: 1em;
+        position: absolute   ;      
+        right: 10em;     
+
     }
