@@ -17,7 +17,7 @@
     
     main{
     display: flex;
-    background-color: #284b63;
+    background-color: white;
     flex-direction: row;
     width: 70%;
 margin-left: 10em;
@@ -26,24 +26,25 @@ margin-left: 10em;
     .left-part{
    
     margin: 1em;
-    
+    text-align: justify;
     }
     
     .right-part{
-    background-color: #3c6e71;
-  width: 60%;
+    background-color: #002060;
+  width:35%;
     color:var(--color-right-part);
-    
+    padding: 0.5em;
+
+ 
     
     }
     h3{
         color: var(--color-sd-title);
     }
     
-    h1,
-    h2,
-    h4,
-    h5{
+    h1
+    
+    {
     color:var(--color-main-title)
     
     }
@@ -51,6 +52,13 @@ margin-left: 10em;
         width :70%;
        text-align: center;
         
+    }
+
+    h3{
+        color: black;
+    }
+    .right-part__text{
+        padding: 1em;
     }
   
     
@@ -61,11 +69,15 @@ margin-left: 10em;
         align-content: flex-start;
         
     }
+    .skills{
+        color: white;
+        font-size: 1rem;
+    }
 
     .phpto{
 
-        width: 100%;
-        box-sizing: border-content;
+        width: 80%;
+        margin:1.5em
 
     }
     .btnCv{
@@ -74,7 +86,7 @@ margin-left: 10em;
         color: white;
         border-radius: 13px;
         width: 13em;
-        height: 5em;
+        height: 1em;
         text-align: center;
         padding-bottom: 2em;
         font-family: 'Poppins';
