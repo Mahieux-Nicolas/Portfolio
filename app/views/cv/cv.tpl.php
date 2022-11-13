@@ -148,10 +148,10 @@
                     </section>
                 </div>
             </div>
-            <a class="btnCv" href="<?= $viewData['baseUri'] ?>/../public/assets/images/moi.PNG" download>télécharger le CV</a>
+          
         </main>
 
-
+        <a class="btnCv" href="<?= $viewData['baseUri'] ?>/../public/assets/images/moi.PNG" download>télécharger le CV</a>
     </body>
 
 

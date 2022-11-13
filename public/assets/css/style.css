@@ -15,8 +15,13 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-  /*  width: 10vw;*/
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+  width: 100vw;
 }
 
 /********gestion navbar*/
@@ -28,9 +33,7 @@ body{
     width: 100%;
     box-sizing: border-box;
     align-items: center;
-    /*position: fixed;*/
-    top: 0;
-    width: 100%;
+      width: 100%;
     backface-visibility: visible;
     
 }
@@ -75,12 +78,11 @@ img.hamb {
 .main-article{
 
     color: floralwhite;
-    margin-top:14em;
+    margin-top:0em;
     text-align: justify;
     backdrop-filter: blur(15px);
     margin-left: 10em;
     margin-right: 10em;
-  /* position: fixed;*/
 
    
 }
@@ -115,15 +117,10 @@ img.hamb {
     display: flex;
     flex-direction: row;
     justify-content: center;
- 
-    position: fixed;
-    top: 90%;
     width: 100%;
+   margin-top: 0em;
 
 }
-
-
-
 
 /********* animation bouton footer****/
 .img1:hover,
@@ -142,21 +139,16 @@ img.hamb {
     display: flex;
     
 }
-.form{
-    
-  display: none;
-}
+
 /******** formulaire **********/
-.form.form-modal{
-    transition: all 5s ;
+form{
     display: flex;
     flex-direction: column;
-    margin-top: 7%;
     margin-left: 3em;
     margin-right: 3em;
     color: white;
     backdrop-filter: blur(8px)    ;
-    padding-top: 3em;
+
     padding-bottom: 1em;
     justify-content: center;
     align-items: center;
@@ -178,7 +170,6 @@ img.hamb {
 {
    
     backdrop-filter: blur(8px);
-    color: black;
     border-bottom: solid 1px black;
     background-color: transparent;
     opacity: 0.8;
@@ -186,6 +177,7 @@ img.hamb {
     width: 19em;
     height: 25px;
     font-family: 'Poppins';
+    color: white;
 }
 #boutton{
     background-color: #ed3c57;
@@ -215,16 +207,39 @@ img.hamb {
 
 
 
-/********** transitions *********/
+/********** RWD *********/
 
 
 @media screen and (max-width: 900px){
+
+    .nav-links.mobile-menu{
+        margin-left: 0;
+     
+
+    }
+
     .main-article{
-        margin-top: 60%;
+        margin-top: 13em;
         margin-left: 3em;
         margin-right: 3em;
     
     }
+
+    .nav-links {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0,20);
+        backdrop-filter: blur(8px)    ;
+        width: 100%;
+        height: 100vh;
+        
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100% ;
+        transition: all 0.5s ease;  
+     }
+ 
     .navbar{
         padding: 0;
     }
@@ -233,10 +248,6 @@ img.hamb {
     }
 
 
-    .nav-links.mobile-menu{
-        margin-left: 0;
-
-    }
     .nav-links ul{
         display: flex;
         flex-direction: column;
@@ -251,39 +262,48 @@ img.hamb {
         top: 40px;
         left: 30px;
     }
-
- 
 
     .icons{
      
         margin-top:10em;
     }
+
+ 
+
+}
+@media screen and (max-width: 1024px){
+
+
     .nav-links {
         position: absolute;
         background-color: rgba(255, 255, 255, 0,20);
-        backdrop-filter: blur(8px)    ;
+        backdrop-filter: blur(8px);
         width: 100%;
-        height: 100vh;
-        top:0;
         left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-left: -100% ;
         transition: all 0.5s ease;
+        margin-top: 52em;
+
  
        
      }
- 
+    .nav-links.mobile-menu{
+        margin-left: 0;
+        width: 100%;
+        height: 100%;
+        
 
-}
-@media screen and (max-width: 1024px){
-    .main-article{
-        margin-top: 25%;
-        margin-left: 3em;
-        margin-right: 3em;
-    
     }
+    .main-article{
+     
+        z-index: -1;
+        margin-top: 8em;
+    }
+
+
     .navbar{
         padding: 0;
     }
@@ -291,11 +311,9 @@ img.hamb {
         display: block;
     }
 
+  
 
-    .nav-links.mobile-menu{
-        margin-left: 0;
 
-    }
     .nav-links ul{
         display: flex;
         flex-direction: column;
@@ -314,25 +332,21 @@ img.hamb {
 
     .icons{
      
-        margin-top:11em;
+        margin-top:2em;
     }
 
-    .nav-links {
-        position: absolute;
-        background-color: rgba(255, 255, 255, 0,20);
-        backdrop-filter: blur(8px)    ;
-        width: 100%;
-        height: 100vh;
-        top:0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -100% ;
-        transition: all 0.5s ease;
- 
-       
-     }
+    form{
+        margin-top: 9em;
+        z-index: -1;
+        position: relative;
+    }
+.element__form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
 
 }
 

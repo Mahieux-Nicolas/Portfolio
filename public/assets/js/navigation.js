@@ -4,8 +4,8 @@ ini : function(){
     const menuhamb = document.querySelector(".hamb");
     menuhamb.addEventListener('click', app.handleClickNavBar)
 
-    const navContact = document.querySelector('.contact')
-    navContact.addEventListener('click', app.handleClickContact)
+  //  const navContact = document.querySelector('.contact')
+    //navContact.addEventListener('click', app.handleClickContact)
 },
 
 mainPage: function(){
@@ -18,14 +18,14 @@ handleClickNavBar : function(){
 
 },
 
-handleClickContact : function(evt){
+//handleClickContact : function(evt){
     
-    evt.preventDefault();
+  //  evt.preventDefault();
 
-const formModal = document.querySelector('.form')
-formModal.classList.toggle('form-modal')
+//const formModal = document.querySelector('.form')
+//formModal.classList.toggle('form-modal')
 
-}
+//}
 
 }
 
