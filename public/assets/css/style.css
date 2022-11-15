@@ -205,8 +205,63 @@ form{
 
 }
 
+/********** partie portfolio *********/
+
+tbody{
+    display: flex;
+ 
+
+}
 
 
+.css,
+.php,
+.js,
+.php{
+    
+    width: 10%;
+  
+}
+
+.html{
+    width: 13%;
+}
+
+.logo-techno{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 3em;
+}
+
+.card{
+    width: 18rem;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5em;
+}
+.card-title,
+.text-card{
+    color: white;
+}
+
+.link-card{
+    color: #ed3c57;
+}
+
+.body-card{
+
+    backdrop-filter: blur(8px);
+}
+
+.portfo{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+}
 /********** RWD *********/
 
 
@@ -345,6 +400,20 @@ form{
     flex-direction: column;
     text-align: center;
 
+}
+
+.portfo{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+    z-index: -1;
+}
+
+.body-card{
+    z-index: -1;
+    margin-top: 2em;
 }
 
 
