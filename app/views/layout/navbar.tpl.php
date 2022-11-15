@@ -6,7 +6,6 @@
             <ul>
 
                 <li class="active"><a href="<?= $router->generate('home') ?>">Home</a></li>
-                <li class='presentation' ><a href="<?= $router->generate('presentation') ?>">Présentation</a></li>
                 <li class='cv'><a href="<?= $router->generate('cv') ?>">Curriculum Vitae</a></li>
                 <li class='portfolio' ><a href="<?= $router->generate('portfolio') ?>">Portfolio</a></li>
                 <li class='contact' ><a href="<?= $router->generate('contact') ?>">Contact</a></li>

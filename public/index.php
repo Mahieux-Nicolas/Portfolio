@@ -59,15 +59,6 @@ $router->map(
     'portfolio'
 );
 
-$router->map(
-    'GET',
-    '/presentation',
-    [
-        'method' => 'presentation',
-        'controller' => '\App\Controllers\PresentationController' // On indique le FQCN de la classe
-    ],
-    'presentation'
-);
 
 $router->map(
     'GET',

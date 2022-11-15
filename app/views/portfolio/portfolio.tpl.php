@@ -7,7 +7,7 @@
     <img class="css" src="<?= $viewData['baseUri'] ?>/../public/assets/images/css.png">
     <p class="text-card">création du CV</p>
 
-    <a href="#" class="link-card">Lien Github</a>
+    <a href="https://github.com/Mahieux-Nicolas/CV" class="link-card">Lien Github</a>
   </div>
 </div>
 
@@ -22,7 +22,7 @@
     <img class="js" src="<?= $viewData['baseUri'] ?>/../public/assets/images/logo-javascript.svg">
     <p class="text-card">Création d'une application contenant une présentation, l'intégralité de mes projets ainsi que mon CV</p>
 
-    <a href="#" class="link-card">Lien Github</a>
+    <a href="https://github.com/Mahieux-Nicolas/Portfolio" class="link-card">Lien Github</a>
   </div>
 </div>
 
